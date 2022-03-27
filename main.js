@@ -1,3 +1,5 @@
+"use strict";
+alert("Welcome! Please input your bill value!");
 document.querySelector(".main").onchange = function () {
   let total = Number(document.querySelector("#total").value);
   console.log(total);
